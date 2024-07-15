@@ -5,7 +5,7 @@ import { loader } from "./resources";
 import * as React from 'react';
 import { createContext } from "react";
 import { createRoot } from 'react-dom/client';
-import App from './App';
+import App from './app';
 
 const game = new Engine({
     canvasElementId: 'game',
