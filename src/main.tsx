@@ -1,11 +1,11 @@
 import { DisplayMode, Engine } from "excalibur";
-import { Menu, calculateExPixelConversion } from "./ui";
 import { loader } from "./resources";
 
 import * as React from 'react';
 import { createContext } from "react";
 import { createRoot } from 'react-dom/client';
 import App from './app';
+import { calculateExPixelConversion } from "./ui";
 
 const game = new Engine({
     canvasElementId: 'game',
@@ -19,7 +19,6 @@ game.screen.events.on('resize', () => calculateExPixelConversion(game.screen));
 
 game.start(loader).then(() => {
     calculateExPixelConversion(game.screen);
-    // const menu = new Menu(game.currentScene);
 });
 
 export const ExcaliburContext = createContext(game);
