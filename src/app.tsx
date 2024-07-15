@@ -20,7 +20,7 @@ export default function ExcaliburUiApp() {
         return () => {
             pointerSubscription.close();
         }
-    });
+    }, [engine]);
 
     function addUnit() {
         const actor = new Actor({
