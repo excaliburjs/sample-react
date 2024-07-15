@@ -1,12 +1,12 @@
 {
     "name": "sample-html",
     "version": "1.0.0",
-    "description": "",
+    "description": "React + Excalibur.js",
     "scripts": {
         "start": "parcel serve index.html",
         "build": "parcel build index.html --dist-dir ./dist --public-url /"
     },
-    "author": "",
+    "author": "Erik Onarheim",
     "license": "BSD-2-Clause",
     "devDependencies": {
         "@types/react": "18.3.3",
