@@ -1,0 +1,23 @@
+{
+    "name": "sample-html",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "parcel serve index.html",
+        "build": "parcel build index.html --dist-dir ./dist --public-url /"
+    },
+    "author": "",
+    "license": "BSD-2-Clause",
+    "devDependencies": {
+        "@types/react": "18.3.3",
+        "@types/react-dom": "18.3.0",
+        "parcel": "2.12.0",
+        "process": "^0.11.10",
+        "typescript": "5.5.3"
+    },
+    "dependencies": {
+        "excalibur": "0.29.3",
+        "react": "18.3.1",
+        "react-dom": "18.3.1"
+    }
+}
